@@ -18,6 +18,6 @@ docker exec -it "id контейнера" bash
 
 psql -h localhost -p 5432 -U docker -d docker
 
-\dt - просмотр всех таблиц;
+create table links (link_id SERIAL, link varchar(100));
 
- / Здесь можно выполнять sql команды \
+\dt - просмотр всех таблиц;
