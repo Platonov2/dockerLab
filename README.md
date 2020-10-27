@@ -15,4 +15,5 @@ docker exec -it "id контейнера" bash
 Пример: docker exec -it 68e225c5be93 bash
 
 \dt - просмотр всех таблиц;
+
  / Здесь можно выполнять sql команды \
